@@ -16,7 +16,7 @@ naoBtn.addEventListener("click", () => {
 
 simBtn.addEventListener("click", () => {
   // redireciona para um vídeo fofo de gato
-  window.location.href = "https://www.youtube.com/watch?v=5dsGWM5XGdg"; 
+  window.location.href = "https://youtu.be/pQzTBdeUNlU?si=iFHg2XelwQ_wplL2"; 
 });
 
 document.getElementById("sim").addEventListener("click", function() {
