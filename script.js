@@ -4,20 +4,19 @@ const naoBtn = document.getElementById("nao");
 let simSize = 20; // tamanho inicial da fonte do botão "Sim"
 
 naoBtn.addEventListener("click", () => {
-  // aumenta o tamanho do "Sim"
   simSize += 5;
   simBtn.style.fontSize = simSize + "px";
 
-  // quando o "Sim" ficar muito grande, remove o "Não"
   if (simSize >= 60) {
     naoBtn.style.display = "none";
   }
 });
 
+// Clique no "Sim" → abre vídeo novo
 simBtn.addEventListener("click", () => {
-  // redireciona para um vídeo fofo de gato
   window.location.href = "https://youtu.be/pQzTBdeUNlU?si=iFHg2XelwQ_wplL2"; 
 });
+
 
 document.getElementById("sim").addEventListener("click", function() {
     alert("Sabia que você ia dizer SIM 😍💖");
