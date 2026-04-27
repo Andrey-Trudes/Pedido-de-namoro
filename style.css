@@ -4,30 +4,29 @@ body {
     padding: 0;
 }
 
-
-
 .container {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 button {
-  font-size: 20px;
-  padding: 10px 20px;
-  margin: 10px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 #sim {
-  background-color: #ff4da6;
-  color: white;
+    background-color: #ff4da6;
+    color: white;
 }
 
 #nao {
-  background-color: #999;
-  color: white;
+    background-color: #999;
+    color: white;
 }
+
 
 body {
     background-color: pink;
